@@ -67,6 +67,9 @@ describe "#initial_round" do
     expect($stdout).to receive(:puts).with(/Your cards add up to /)
     initial_round
   end
+  
+  sum = deal_card = deal_card
+  
 
 end
 
